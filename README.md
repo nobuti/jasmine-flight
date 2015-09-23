@@ -82,29 +82,6 @@ A function to execute after the mixin has loaded. Should contain spec definition
 As per describeMixin, but prevents execution of any other specs.
 
 
-
-
-### describeModule(modulePath, specDefinitions)
-
-Requires the AMD module at modulePath and executes specDefinitions
-
-* The module will be available as this.module from within specDefinitions.
-
-#### `modulePath`: String
-
-A path to an AMD module. E.g. `utils/time`
-
-#### `specDefinitions`: Function
-
-A function to execute after the module has loaded. Should contain spec definitions.
-
-### ddescribeModule(modulePath, specDefinitions)
-
-As per describeModule, but prevents execution of any other specs.
-
-
-
-
 ## this.setupComponent(fixture, options)
 
 Instantiate a component or mixin within specDefinitions.
